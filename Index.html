@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="./index.css" />
+    <title>Document</title>
+  </head>
+  <body class="">
+    <header class="header">
+      <nav class="">
+        <div class="flex bg-gray-100 justify-between bg-slate-950">
+          <div class="gap-12">
+            <!-- Current: "bg-gray-900 text-white", Default: "text-gray-300 hover:bg-gray-700 hover:text-white" -->
+            <a
+              href="#"
+              class="rounded-md bg-gray-900 px-3 py-2 text-sm font-medium text-white"
+              aria-current="page"
+              >Modelos</a
+            >
+            <a
+              href="#"
+              class="rounded-md px-3 py-2 text-sm font-medium text-gray-300 hover:bg-gray-700 hover:text-white"
+              >Comprar</a
+            >
+            <a
+              href="#"
+              class="rounded-md px-3 py-2 text-sm font-medium text-gray-300 hover:bg-gray-700 hover:text-white"
+              >Servicios</a
+            >
+            <a
+              href="#"
+              class="rounded-md px-3 py-2 text-sm font-medium text-gray-300 hover:bg-gray-700 hover:text-white"
+              >Marca</a
+            >
+          </div>
+
+          <div class="flex flex-shrink-0 items-center justify-self-center">
+            <img
+              class="h-8 w-auto"
+              src="./Images/logo.svg"
+              alt="Your Company"
+            />
+          </div>
+
+          <div class="flex">
+            <div><a href=""> provee</a></div>
+            <div class="size-12">
+              <a href=""><img src="./Images/vaso.png" alt="" /></a>
+            </div>
+            <div>
+              <button
+                type="button"
+                class="relative flex rounded-full bg-gray-800 text-sm focus:outline-none focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-gray-800"
+                id="user-menu-button"
+                aria-expanded="false"
+                aria-haspopup="true"
+              >
+                <span class="absolute -inset-1.5"></span>
+                <span class="sr-only">Open user menu</span>
+                <img
+                  class="h-8 w-8 rounded-full"
+                  src="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80"
+                  alt=""
+                />
+              </button>
+            </div>
+            <div>
+              <button
+                type="button"
+                class="relative rounded-full bg-gray-800 p-1 text-gray-400 hover:text-white focus:outline-none focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-gray-800"
+              >
+                <span class="absolute -inset-1.5"></span>
+                <span class="sr-only">View notifications</span>
+                <svg
+                  class="h-6 w-6"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke-width="1.5"
+                  stroke="currentColor"
+                  aria-hidden="true"
+                  data-slot="icon"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    d="M14.857 17.082a23.848 23.848 0 0 0 5.454-1.31A8.967 8.967 0 0 1 18 9.75V9A6 6 0 0 0 6 9v.75a8.967 8.967 0 0 1-2.312 6.022c1.733.64 3.56 1.085 5.455 1.31m5.714 0a24.255 24.255 0 0 1-5.714 0m5.714 0a3 3 0 1 1-5.714 0"
+                  />
+                </svg>
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="flex flex-col pt-64">
+          <h1 class="text-white">El poder de elegir</h1>
+          <p class="text-white">
+            Electrico.Hibrido Electrico Enchunfable.Combustion.
+          </p>
+          <button class="bg-sky-900 size-10 w-24">Descubrelo</button>
+        </div>
+      </nav>
+    </header>
+    <section class="root">
+      <div class="flex sticky top-8 justify-center squares">
+        <div class="h-12 flex relative bottom-4">
+          <a
+            class="w-40 border-solid border-2 border-black bg-black text-stone-50"
+          >
+            Mercedez-Benz
+          </a>
+          <a
+            class="w-20 border-solid border-2 border-black bg-slate-50 text-stone-950"
+          >
+            AMG
+          </a>
+          <a
+            class="w-32 border-solid border-2 border-black bg-slate-50 text-stone-950"
+          >
+            MAYBACH
+          </a>
+        </div>
+      </div>
+
+      <div class="flex flex-col p-32 g">
+        <div>
+          <p>Nuestras recomendaciones</p>
+        </div>
+
+        <div class="flex section1">
+          <div class="">
+            <img src="./Images/mercedes-benz-izq.avif" alt="carLeft" />
+            <div class="bragroungBlack">
+              <div class="textImage">
+                <p>Clase A con Mercedes-BEnz Renting</p>
+                <p>Clase A.</p>
+                <p>Ahora por 240€/mes</p>
+              </div>
+              <div class="seccionD">
+                <button href="Ofertas">Ver Oferta</button>
+                <a href="">mas informaciòn</a>
+              </div>
+            </div>
+          </div>
+          <div class="">
+            <img src="./Images/mercedes-benz_rigth.avif" alt="carRigth" />
+            <div class="bragroungBlackR">
+              <div class="textImage">
+                <p>Clase A con Mercedes-BEnz Renting</p>
+                <p>Clase A.</p>
+                <p>Ahora por 240€/mes</p>
+              </div>
+              <div class="aText">
+                <a href="OfertasL">Ver Ofertas</a>
+                <a href="">mas informaciòn</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="flex section1">
+          <div class="">
+            <img src="./Images/secction3L.avif" alt="carLeft" />
+            <div class="bragroungBlack">
+              <div class="textImage">
+                <p>Clase A con Mercedes-BEnz Renting</p>
+                <p>Clase A.</p>
+                <p>Ahora por 240€/mes</p>
+              </div>
+              <div class="seccionD">
+                <button href="Ofertas">Ver Oferta</button>
+              </div>
+            </div>
+          </div>
+          <div class="">
+            <img src="./Images/secction3C.vif.avif" alt="carLeft" />
+            <div class="bragroungBlack">
+              <div class="textImage">
+                <p>Clase A con Mercedes-BEnz Renting</p>
+                <p>Clase A.</p>
+                <p>Ahora por 240€/mes</p>
+              </div>
+              <div class="seccionD">
+                <button href="Ofertas">Ver Oferta</button>
+              </div>
+            </div>
+          </div>
+          <div class="">
+            <img src="./Images/secction3D.avif" alt="carLeft" />
+            <div class="bragroungBlack">
+              <div class="textImage">
+                <p>Clase A con Mercedes-BEnz Renting</p>
+                <p>Clase A.</p>
+                <p>Ahora por 240€/mes</p>
+              </div>
+              <div class="seccionD">
+                <button href="Ofertas">Ver Oferta</button>
+                <a href="">Clase G Electrico</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="section3">
+          <div>
+            <p>La combinacion perfecta de lujo, deportividad y potencia:</p>
+            <p>Descubre nuestro modelos mas recientes</p>
+          </div>
+          <div class="section3Buttons">
+            <button>Descubre todos los modelos</button>
+            <button>Descubre todos los modelos electricos</button>
+          </div>
+          <div class="cars grid grid-cols-3 gap-5">
+            <div>
+              <img class="" src="./Images/berlina.png" alt="carsGrid" />
+              <div class="bragroungGray">
+                <div class="textImage">
+                  <p>Descubrelo</p>
+                  <p>Berlina</p>
+                </div>
+              </div>
+            </div>
+            <div>
+              <img
+                class="carsGrid"
+                src="./Images/suvTodoterreno-removebg-preview.png"
+                alt="carsGrid1"
+              />
+              <div class="bragroungGray">
+                <div class="textImage">
+                  <p>Descubrelo</p>
+                  <p>SUV & Todoterreno</p>
+                </div>
+              </div>
+            </div>
+            <div>
+              <img src="./Images/state-removebg-preview.png" alt="carsGrid" />
+              <div class="bragroungGray">
+                <div class="textImage">
+                  <p>Descubrelo</p>
+                  <p>Estate</p>
+                </div>
+              </div>
+            </div>
+            <div>
+              <img  class="compactoCar" src="./Images/compacto.webp"  />
+              <div class="bragroungGray">
+                <div class="textImage">
+                  <p>Descubrelo</p>
+                  <p>Compacto</p>
+                </div>
+              </div>
+            </div>
+            <div class="coupe">
+              <img  class="compactoCar coupe " src="./Images/coupe-removebg-preview.png" alt="carsGrid1-2" />
+              <div class="bragroungGray">
+                <div class="textImage">
+                  <p>Descubrelo</p>
+                  <p>Coupe</p>
+                </div>
+              </div>
+            </div>
+            <div class="cabrio">
+              <img src="./Images/cabrio.webp" alt="carsGrid1" />
+              <div class="bragroungGray">
+                <div class="textImage">
+                  <p>Descubrelo</p>
+                  <p>Cabrio</p>
+                </div>
+              </div>
+            </div>
+            <div>
+              <img src="./Images/monovolumen.png" alt="carsGrid" />
+              <div class="bragroungGray">
+                <div class="textImage">
+                  <p>Descubrelo</p>
+                  <p>Monovolumen</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>

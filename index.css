@@ -1,0 +1,132 @@
+nav {
+  background-image: url(./Images/MercedezGIf.gif);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 35rem;
+}
+img[alt="carRigth"] {
+  /* width: 38rem; */
+    height: 49rem;
+}
+img[alt="carLeft"] {
+  /* height: 29rem; */
+}
+.section1 {
+  gap: 1rem;
+}
+.bragroungBlack {
+  background-color: rgb(13, 13, 13);
+  position: relative;
+  height: 17rem;
+  bottom: 0rem;
+  box-shadow: 1px -35px 35px  rgba(6, 6, 6, 0.978);
+  color: white;
+}
+.bragroungBlackR{
+    background-color: rgb(13, 13, 13);
+    position: relative;
+    height: 11rem;
+    bottom: 10rem;
+    box-shadow: 1px -35px 35px  rgba(6, 6, 6, 0.978);
+    color: white;
+}
+.textImage{
+    display: flex;
+    flex-direction: column;
+    padding-left: 1rem;
+    font-weight: bold;
+    gap: .5rem;
+    padding-bottom: 7rem;
+    
+}
+button[href="Ofertas"]  {
+    background-color: blue;
+   padding: 1rem;
+   bottom: 5rem;
+   border-radius: 10%;
+   width:7rem ;
+   /* height: 4rem; */
+   }
+a[href="OfertasL"]  {
+    background-color: blue;
+   padding: 1rem;
+   height: 1rem;
+   position: relative;
+   bottom: 5rem;
+   left: 1rem;
+}
+.seccionD{
+    padding-left: 1rem;
+}
+
+img[alt="imgCentral"]{
+    width: 46.3rem;
+}
+.bragroungGray{
+  background-color: rgb(13, 13, 13);
+  position: relative;
+  bottom: 2rem;
+  height:5rem;
+  color: white;
+  z-index: -1;
+}
+img[alt="carsGrid"]{
+  position: relative;
+  width: 40%;
+  top: 1rem;
+  left: 16rem;
+  z-index: 1;
+  opacity: 0.9;
+  border-radius: 10%;
+}
+img[alt="carsGrid1"]{
+  position: relative;
+  width: 57%;
+  top: 2rem;
+  left: 16rem;
+  z-index: 1;
+  opacity: 0.9;
+  border-radius: 10%;
+}
+.compactoCar{
+  position: relative;
+  width: 55%;
+  top: 2rem;
+  left: 19rem;
+  z-index: 1;
+  opacity: 0.9;
+ 
+}
+.compactoCar:hover{
+/* background-color: aqua; */
+transform: rotateY(180deg) ;
+/* transition: reo; */
+
+}
+img[alt="carsGrid1-2"] {
+ 
+  position: relative;
+  width: 55%;
+  top: 1rem;
+  left: 17rem;
+  z-index: 1;
+  opacity: 0.9;
+  border-radius: 10%;
+}
+img[alt="carsGrid1-2"]  :hover{
+  transform: rotateY(180deg) ;
+}
+.coupe{
+padding: 1rem;
+}
+.cabrio{
+  /* padding: 4rem; */
+}
+
+img[alt="carsGrid1"]:hover{
+  transform: rotateY(180deg) ;
+}
+img[alt="carsGrid"]:hover{
+  transform: rotateY(180deg) ;
+}
