@@ -1,47 +1,78 @@
-const carrousel = document.getElementById("section5Container");
+
+
+
+// nextBtn.addEventListener('click', () => {
+//   moves++;
+//   if (moves >= totalItems.length-1) {
+//     moves = 0;
+//   }
+//     carrousel.style.transform = `translateX(-${moves * 50}%)`;
+  
+  
+//   console.log('entra en next');
+// });
+
+// prevBtn.addEventListener("click", () => {
+//   moves--;
+//   if (moves < 0) {
+//     moves = totalItems.length - 1;
+//   }
+
+//   carrousel.style.transform = `translateX(-${moves * 50}%)`;
+//   console.log('entra en prev');
+// });
+
+// console.log('enlazado');
+
+document.addEventListener('DOMContentLoaded', () => {
+ 
+const containerCarrousel = document.getElementById('containerCarrousel');
+const carrousel= document.getElementById('slider');
+const totalSliders = document.querySelectorAll('.carrouselItem');
 const nextBtn = document.getElementById("nextBtn");
 const prevBtn = document.getElementById("prevBtn");
 
-
-document.addEventListener('DOMContentLoaded',() =>{
-
-const upText= document.getElementById('upText');
-
-upText.addEventListener('click',() =>{
-
-  window.scrollTo({
-    top: 0,
-    behavior:'smooth'
-  })
-});
-
-})
-
 let moves = 0;
 
-const totalItems = document.querySelectorAll(".carrousel");
 
 
+nextBtn.addEventListener('click',()=>{
+moves++;
+
+if(moves>=totalSliders.length-1){
+moves=0;
+}
 
 
-nextBtn.addEventListener("click", () => {
-  moves++;
-console.log('entra en next');
+carrousel.style.transform = `translateX(-${moves * 52}%)`;
+console.log('entra');
 
-  if (moves >= totalItems.length) {
-    moves = 0;
-  }
-
-  carrousel.style.transform = `translateX(-${moves * 50}%)`;
 });
 
-prevBtn.addEventListener("click", () => {
-    moves--;
-    console.log('entra en prev');
-    
-      if (moves<0) {
-        moves = totalItems.length-1
-      }
-    
-      carrousel.style.transform=`translateX(-${moves*50}%)`;
+
+prevBtn.addEventListener('click',()=>{
+  moves--;
+  
+  if(moves>=totalSliders.length-1){
+  moves=0;
+  }
+  
+  
+  carrousel.style.transform = `translateX(-${moves * 50}%)`;
+  console.log('entra');
+  
+  });
+
+
+
+  const upText = document.getElementById('upText');
+
+ 
+  upText.addEventListener('click', () => {
+    window.scrollTo({
+      top: 0,
+      behavior: 'smooth'
+    });
+  });
+
 });

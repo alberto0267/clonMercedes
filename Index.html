@@ -102,7 +102,7 @@
       </nav>
     </header>
     <section class="root">
-      <div class="flex sticky top-8 justify-center squares">
+      <div class="flex sticky top-8 justify-center squares z-10">
         <div class="h-12 flex relative bottom-4">
           <a
             class="w-40 border-solid border-2 border-black bg-black text-stone-50"
@@ -399,9 +399,9 @@
           </div>
         </div>
 
-        <div class="section5Container">
-          <div class="carrousel">
-            <div class="carrouselItem">
+        <div id="containerCarrousel" class="section5Container">
+          <div class="carrousel " id="slider">
+            <div class="carrouselItem" id="sliderSection">
               <img src="./Images/5-1.avif" alt="" />
               <p>
                 Adquiere de forma sencilla extras digitales adicionales y
@@ -431,8 +431,9 @@
             </div>
           </div>
           <button class="navButton next" id="nextBtn">></button>
-          <button class="navButton prev" id="prevBtn"><</button>
+            <button class="navButton prev" id="prevBtn"><</button>
         </div>
+
         <div class="section6 flex">
           <div class="text6">
             <h2>MBUX Hyperscreen</h2>
@@ -606,7 +607,7 @@
       </div>
       <div class="up">
         <img src="./Images/flechaArriba.jpg" alt="" />
-      <p id="upText">Volver arriba</p>
+        <p id="upText">Volver arriba</p>
       </div>
       <div class="section11">
         <div class="section11Text">
@@ -660,7 +661,8 @@
       </div>
       <div class="section12">
         <div class="section12Text">
-          <a href="">2024 Mercedes-Benz AG. Reservados todos los derechos (proveedor)
+          <a href=""
+            >2024 Mercedes-Benz AG. Reservados todos los derechos (proveedor)
           </a>
           <a href="">Aviso legal</a>
           <a href="">Configuración cookies</a>

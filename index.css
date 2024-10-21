@@ -191,11 +191,14 @@ img[alt="carsGrid"]:hover {
   position: relative;
   width: 100%;
   overflow: hidden;
+ 
 }
 .carrousel {
   display: flex;
   transition: transform 0.5s ease-in-out;
   gap: 2rem;
+  transform: none;
+ 
 }
 .carrouselItem {
   min-width: 50%;
@@ -203,6 +206,7 @@ img[alt="carsGrid"]:hover {
 }
 .carrouselItem img {
   padding-top: 2rem;
+  width: 40rem;
 }
 .carrouselItem button {
   margin-top: 10px;
@@ -227,11 +231,11 @@ img[alt="carsGrid"]:hover {
   /* justify-content: center; */
   /* align-items: center; */
   background-color: rgba(211, 221, 218, 0.314);
-  z-index: 10;
+  z-index: 1;
   cursor: pointer;
 }
 .next{
-  left: 79rem;
+left: 74rem;
 }
 .section6{
   display: flex;
