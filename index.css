@@ -1,9 +1,33 @@
 nav {
-  background-image: url(./Images/MercedezGIf.gif);
+  /* background-image: url(./Images/MercedezGIf.gif);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-  height: 35rem;
+  height: 35rem; */
+
+/* z-index: 2; */
+}
+header{
+  /* position: absolute; */
+  padding-bottom: 22.5rem;
+  
+}
+.video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1; 
+  
+}
+
+.video video {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  object-fit: cover; 
+  /* z-index: -1; */
 }
 img[alt="carRigth"] {
   /* width: 38rem; */
@@ -14,7 +38,10 @@ img[alt="carLeft"] {
 }
 .section1 {
   gap: 1rem;
+  overflow: hidden;
 }
+
+
 .bragroungBlack {
   background-color: rgb(13, 13, 13);
   position: relative;
@@ -62,6 +89,12 @@ a[href="OfertasL"] {
 img[alt="imgCentral"] {
   width: 46.3rem;
 }
+
+.imgHover:hover{
+  transform: scale(1.1);
+  /* overflow: hidden; */
+}
+
 .bragroungGray {
   background-color: rgb(13, 13, 13);
   position: relative;

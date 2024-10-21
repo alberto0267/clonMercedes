@@ -1,29 +1,4 @@
 
-
-
-// nextBtn.addEventListener('click', () => {
-//   moves++;
-//   if (moves >= totalItems.length-1) {
-//     moves = 0;
-//   }
-//     carrousel.style.transform = `translateX(-${moves * 50}%)`;
-  
-  
-//   console.log('entra en next');
-// });
-
-// prevBtn.addEventListener("click", () => {
-//   moves--;
-//   if (moves < 0) {
-//     moves = totalItems.length - 1;
-//   }
-
-//   carrousel.style.transform = `translateX(-${moves * 50}%)`;
-//   console.log('entra en prev');
-// });
-
-// console.log('enlazado');
-
 document.addEventListener('DOMContentLoaded', () => {
  
 const containerCarrousel = document.getElementById('containerCarrousel');
